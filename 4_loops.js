@@ -5,6 +5,11 @@
  * Below we're going to create an array of objects that represent user records, and we're going to print out the name of each user.
  * Here we define an array that contains 3 objects
  */
+
+/*****************************************************************************************************************
+    Example
+******************************************************************************************************************/
+
 const users = [
   {
     // Object 1
@@ -34,6 +39,11 @@ const users = [
  * Scope is a technical term that can be a little confusing, but you can think of it as the "area" where a variable lives.
  * If we tried to console.log(user.name) outside of the loop, it would not work because the variable "user" is out of scope.
  */
+
+/*****************************************************************************************************************
+    Example
+******************************************************************************************************************/
+
 for (const user of users) {
   console.log(user.name);
 }
@@ -43,6 +53,11 @@ for (const user of users) {
  * This is the same as the above loop, but it's a little more verbose.
  * The "traditional" for loop is useful when you need to do something a specific number of times, or do tricky things like iterate over every second item in an array.
  */
+
+/*****************************************************************************************************************
+    Example
+******************************************************************************************************************/
+
 for (let i = 0; i < users.length; i++) {
   console.log(users[i].name);
 }
@@ -66,6 +81,11 @@ for (let i = 0; i < users.length; i++) {
  * We're going to use a variable called "found" to keep track of whether we've found a user with an age of 18.
  * We're also going to use a variable called "i" to keep track of which user we're looking at.
  */
+
+/*****************************************************************************************************************
+    Example
+******************************************************************************************************************/
+
 let found = false;
 let i = 0;
 while (!found) {

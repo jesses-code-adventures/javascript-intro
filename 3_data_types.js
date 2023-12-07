@@ -3,6 +3,10 @@
  * For example, if we have a variable x that is a number, we can reassign it to be a string.
  */
 
+/*****************************************************************************************************************
+    Example
+******************************************************************************************************************/
+
 let x = 420;
 x = "blaze it"; // x is now a string, and this is legal.
 
@@ -25,6 +29,10 @@ x = "blaze it"; // x is now a string, and this is legal.
  * 7. BigInt (you will rarely use this)
  */
 
+/*****************************************************************************************************************
+    Example
+******************************************************************************************************************/
+
 const number_example = 7;
 const string_example = "get money";
 const boolean_example = true;
@@ -38,6 +46,10 @@ const bigint_example = 9007199254740991n; // Don't stress about this for now
  * 1. Object
  * 2. Array
  */
+
+/*****************************************************************************************************************
+    Example
+******************************************************************************************************************/
 
 const object_example = {
   name: "Jesse",
@@ -54,8 +66,14 @@ const array_example = ["dog", "cat", "lemur"];
  * We will cover this in the next chapter.
  */
 
+/*****************************************************************************************************************
+    EXERCISE!
+******************************************************************************************************************/
+
 /*
- * Exercise: Create variables with the below data types, then log each one to the console with its type next to it (ie the print should look like "Number: 7")
+ * Create variables with the below data types.
+ * Next, log each one to the console with its type next to it.
+ * For example, the print should look like "Number: 7"
  * Number
  * String
  * Boolean
