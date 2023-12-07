@@ -2,7 +2,6 @@
  * Variables are containers for storing data values.
  * For example, in the statement below, x is the variable.
  */
-
 const x = 5;
 
 /*
@@ -11,7 +10,6 @@ const x = 5;
  * Conventionally if your variable is going to be one value that never changes, capitalized variable names are used.
  * For example, if we wanted to store the value of pi, we would write:
  */
-
 const PI = 3.14;
 
 /*
@@ -19,7 +17,6 @@ const PI = 3.14;
  * If you want to be able to reassign a variable, you can use the let keyword.
  * For example, if we were incrementing a counter, we would use `let y = 0;` and then `y = y + 1;` to increment it.
  */
-
 let y = 0;
 y = y + 1; // y is now 1
 
