@@ -33,13 +33,13 @@ x = "blaze it"; // x is now a string, and this is legal.
     Example
 ******************************************************************************************************************/
 
-const number_example = 7;
-const string_example = "get money";
-const boolean_example = true;
-const null_example = null;
-const undefined_example = undefined;
-const symbol_example = Symbol("symbol_example"); // Don't stress about this for now
-const bigint_example = 9007199254740991n; // Don't stress about this for now
+const numberExample = 7;
+const stringExample = "get money";
+const booleanExample = true;
+const nullExample = null;
+const undefinedExample = undefined;
+const symbolExample = Symbol("symbol_example"); // Don't stress about this for now
+const bigintExample = 9007199254740991n; // Don't stress about this for now
 
 /*
  * You will also commonly run into some more complex data types:
@@ -51,13 +51,13 @@ const bigint_example = 9007199254740991n; // Don't stress about this for now
     Example
 ******************************************************************************************************************/
 
-const object_example = {
+const objectExample = {
   name: "Jesse",
   role: "Bad mutha fucker",
   age: 77,
 };
 
-const array_example = ["dog", "cat", "lemur"];
+const arrayExample = ["dog", "cat", "lemur"];
 
 /*
  * Objects allow us to store key/value pairs, which is very common in most programming languages.
