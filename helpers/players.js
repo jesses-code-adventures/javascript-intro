@@ -47,7 +47,7 @@ async function getOnePage(page) {
  * @returns {Promise<Player[]>} - An array of player objects.
  * @throws {error} - An error is thrown if the API call fails.
  */
-export async function getPlayers(page = 1) {
+export async function getPlayersFromApi(page = 1) {
   const all_players = [];
 
   try {

@@ -14,8 +14,52 @@
  */
 
 /*****************************************************************************************************************
+
     EXAMPLE
 
     Here we will create simple javascript object and write it to a json file.
+    Then we will read the file and log the contents to the console.
 
 ******************************************************************************************************************/
+
+import fs from "fs";
+import path from "path";
+
+// This is the path to the file we will write to.
+const output_path = path.join("output", "person.json");
+
+// This is a simple javascript object.
+const person = {
+  first_name: "Doug",
+  last_name: "Hole",
+  age: 30,
+  is_cool: true,
+};
+
+// We can convert it to JSON using JSON.stringify().
+// The null and 4 are optional parameters to make the output more readable.
+const person_json = JSON.stringify(person, null, 4);
+
+// We can then write the JSON to a file.
+fs.writeFileSync(output_path, person_json);
+
+// We can then read the file and log the contents to the console.
+const person_json_from_file = fs.readFileSync(output_path, "utf8");
+console.log(person_json_from_file);
+
+// We can also do it with an array
+const people = [
+  person,
+  { first_name: "Jeff", last_name: "Epstein", age: 40, is_cool: false },
+  { first_name: "Fydor", last_name: "Dostoevsky", age: 77, is_cool: true },
+];
+
+const people_output_path = path.join("output", "people.json");
+// The null and 4 are optional parameters to make the output more readable.
+const people_json = JSON.stringify(people, null, 4);
+fs.writeFileSync(people_output_path, people_json);
+const people_json_from_file = fs.readFileSync(people_output_path, "utf8");
+console.log(people_json_from_file);
+
+// Open the files in the output directory and have a look at how the data is formatted.
+// You might need to format with Prettier.
