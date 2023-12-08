@@ -1,11 +1,35 @@
 /*
- * This chapter will give you the building blocks for writing javascript code.
- * Code runs top-to-bottom, and we can often think of chunks of code as procedures.
- * Within the procedures, you'll need to do different things in different situations.
- * With this in mind, let's look at if statements and boolean logic.
- */
+
+     This chapter will give you the building blocks for writing javascript code.
+     Code runs top-to-bottom, and we can often think of chunks of code as procedures, or like a recipe.
+     Within the procedures, you'll need to do different things in different situations.
+     With this in mind, let's look at if statements and boolean logic.
+     If statements are the most basic way to control the flow of your code.
+     They allow you to run different code depending on the situation.
+
+     They are generally structured:
+     if (condition) // This is where we define when we want to run the code
+     // For example we could say age > 25 for condition.
+     { // Use a squirly brace to start the code that we want to run
+       // Put code here
+     } // Use a squirly brace to end the code that we want to run
+
+     Combined:
+     if (age > 25) {
+         doSomething();
+     }
+
+     You can also add an else statement to run code when the condition is not true.
+     if (age > 25) {
+         doSomething();
+     } else {
+         doSomethingElse();
+     }
+
+*/
 
 /*****************************************************************************************************************
+
     Example
 
     Let's say we have an array of baddies.

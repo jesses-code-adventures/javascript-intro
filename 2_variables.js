@@ -42,7 +42,12 @@ y = y + 1; // y is now 1
  * This detail isn't crucial to understand right now, but it will be referenced as you learn more about programming.
  */
 
-/*
- * Exercise 1: Create a variable called myName and set it equal to your name, then print it to the terminal using console.log.
- * Write your code below and then run `node 2_variables.js` to print the output.
- */
+/*****************************************************************************************************************
+
+    EXERCISE!
+
+    Exercise 1: Create a const called myName and set it equal to your name
+    Print myName to the terminal using console.log.
+    Write your code below and then run `node 2_variables.js` to print the output.
+
+******************************************************************************************************************/

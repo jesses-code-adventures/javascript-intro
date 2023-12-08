@@ -9,9 +9,9 @@
 /*****************************************************************************************************************
     EXERCISE!
 
-    It's your first day as a statistician for the NBA.
-    The person who had the job before you was fired for pulling data from their API too often.
-    He cost the NBA millions of dollars in server moneys due to a loop that never ended.
+    It's your first day as a data analyst for the NBA.
+    Stan, the engineer before you was fired for pulling data from their API too often.
+    Stan cost the NBA millions of dollars in server moneys due to a loop that never ended.
 
     Your first job is to write a caching solution to prevent this from happening again.
     This means the data will be pulled from the API and saved to the disk if it doesn't exist.

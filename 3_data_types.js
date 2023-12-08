@@ -66,17 +66,17 @@ const objectExample = {
 const arrayExample = ["dog", "cat", "lemur"];
 
 /*****************************************************************************************************************
-    EXERCISE!
-******************************************************************************************************************/
 
-/*
- * Create variables with the below data types.
- * Next, log each one to the console with its type next to it.
- * For example, the print should look like "Number: 7"
- * Number
- * String
- * Boolean
- * Array
- * Object
- * Run the code you've written below using `node 3_data_types.js`
- */
+    EXERCISE!
+
+    Create variables with the below data types.
+    Next, log each one to the console with its type next to it.
+    For example, the print should look like "Number: 7"
+    Number
+    String
+    Boolean
+    Array
+    Object
+    Run the code you've written below using `node 3_data_types.js`
+
+******************************************************************************************************************/
