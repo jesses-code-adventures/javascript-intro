@@ -1,6 +1,7 @@
 /*
  * You can program almost anything using loops and functions.
- * We'll explore functions in the next chapter, but here we're using loops.
+ * We'll explore functions a little later, but here we're using loops.
+ *
  * You use loops when you have an array of data in javascript and need to do something with each of the values.
  * Below we're going to create an array of objects that represent user records, and we're going to print out the name of each user.
  * Here we define an array that contains 3 objects
