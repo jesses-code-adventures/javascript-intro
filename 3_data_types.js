@@ -44,7 +44,13 @@ const bigintExample = 9007199254740991n; // Don't stress about this for now
 /*
  * You will also commonly run into some more complex data types:
  * 1. Object
+ * Objects allow us to store key/value pairs, which is very common in most programming languages.
  * 2. Array
+ * Arrays allow us to have a collection of values which we could "iterate" through.
+ * It is very common to have arrays of objects, representing records from a database/API.
+ *
+ * Iterating is the process of going through the values in an array one at a time.
+ * We will cover this in the next chapter.
  */
 
 /*****************************************************************************************************************
@@ -53,18 +59,11 @@ const bigintExample = 9007199254740991n; // Don't stress about this for now
 
 const objectExample = {
   name: "Jesse",
-  role: "Bad mutha fucker",
+  role: "Coda",
   age: 77,
 };
 
 const arrayExample = ["dog", "cat", "lemur"];
-
-/*
- * Objects allow us to store key/value pairs, which is very common in most programming languages.
- * Arrays allow us to have a collection of values which we could "iterate" through.
- * Iterating is the process of going through the values in an array one at a time.
- * We will cover this in the next chapter.
- */
 
 /*****************************************************************************************************************
     EXERCISE!
